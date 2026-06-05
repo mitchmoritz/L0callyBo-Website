@@ -143,17 +143,17 @@
           <article class="published-item">
             <span class="card-kicker">Writing</span>
             <h3>Literary magazine work</h3>
-            <p>Published school writing can be noted here without naming the school, town, issue, or local publication details.</p>
+            <p>Published writing can be noted here without naming school, town, issue, or local publication details.</p>
           </article>
           <article class="published-item">
             <span class="card-kicker">Excerpts</span>
-            <h3>Safe previews</h3>
-            <p>Short excerpts, titles, or general descriptions can be added once each piece is reviewed for personal information.</p>
+            <h3>Selected previews</h3>
+            <p>Short excerpts, titles, or general descriptions can be added once each piece is ready for public sharing.</p>
           </article>
           <article class="published-item">
             <span class="card-kicker">Requests</span>
             <h3>Details by email</h3>
-            <p>Publication context can be shared privately through the parent-managed contact form when appropriate.</p>
+            <p>Publication context can be shared privately by request when appropriate.</p>
           </article>
         </div>
       </section>
@@ -185,15 +185,15 @@
 
       <section class="section booking-section" id="booking" aria-labelledby="booking-title">
         <div class="booking-copy">
-          <p class="eyebrow">Parent-Managed Requests</p>
-          <h2 id="booking-title">Booking and custom order form</h2>
+          <p class="eyebrow">Request-Based Booking</p>
+          <h2 id="booking-title">Booking and custom order inquiries</h2>
           <p>
-            Requests are collected first, then reviewed through a parent-accessible email.
-            This keeps commissions, custom work, and future makeup scheduling organized.
+            Requests are collected first, then confirmed by email. This keeps commissions,
+            custom work, and future makeup scheduling organized as cosmetology services grow.
           </p>
           <ul class="safety-list">
-            <li>No public phone number needed.</li>
-            <li>No school or home address on the site.</li>
+            <li>Local/event availability can be confirmed privately by inquiry.</li>
+            <li>Exact event details are shared after the first email conversation.</li>
             <li>AI agents can be added later for sorting, follow-up, and scheduling.</li>
           </ul>
         </div>
@@ -223,12 +223,16 @@
             <input name="timeline" placeholder="Example: birthday in 3 weeks">
           </label>
           <label class="full-span">
+            Event area
+            <input name="eventArea" placeholder="General area only. Exact address can be shared later.">
+          </label>
+          <label class="full-span">
             Details
             <textarea name="details" rows="6" placeholder="Tell us what you want made, size, style, colors, budget range, or event details." required></textarea>
           </label>
           <button class="button primary full-span" type="submit">Create email request</button>
           <p class="form-note" id="form-note">
-            Replace the placeholder parent email in script.js before sharing this form publicly.
+            This opens an email draft so details can be confirmed before anything is scheduled.
           </p>
         </form>
       </section>

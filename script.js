@@ -1,4 +1,4 @@
-const parentEmail = "locallybo@gmail.com";
+const contactEmail = "locallybo@gmail.com";
 
 const form = document.querySelector("#booking-form");
 const note = document.querySelector("#form-note");
@@ -11,6 +11,7 @@ form.addEventListener("submit", (event) => {
   const email = data.get("email").trim();
   const requestType = data.get("requestType").trim();
   const timeline = data.get("timeline").trim() || "Not provided";
+  const eventArea = data.get("eventArea").trim() || "Not provided";
   const details = data.get("details").trim();
 
   const subject = `l0cally bo request: ${requestType}`;
@@ -21,17 +22,18 @@ form.addEventListener("submit", (event) => {
     `Email: ${email}`,
     `Request type: ${requestType}`,
     `Timeline: ${timeline}`,
+    `Event area: ${eventArea}`,
     "",
     "Details:",
     details,
     "",
-    "Parent review notes:",
+    "Review notes:",
     "- Confirm scope, price, payment method, and pickup/shipping before accepting.",
-    "- Do not collect private teen contact info on the public site.",
+    "- Confirm exact location details only after the initial inquiry is appropriate.",
   ].join("\n");
 
-  const mailto = `mailto:${encodeURIComponent(parentEmail)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailto = `mailto:${encodeURIComponent(contactEmail)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   window.location.href = mailto;
 
-  note.textContent = "Email draft created. If nothing opened, update parentEmail in script.js or connect a form service later.";
+  note.textContent = "Email draft created. If nothing opened, update contactEmail in script.js or connect a form service later.";
 });
