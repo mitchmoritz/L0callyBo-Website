@@ -220,7 +220,7 @@ h3 {
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   border: 2px solid var(--line);
 }
 
@@ -245,6 +245,11 @@ h3 {
 
 .work-card:nth-child(4) {
   background: var(--pink);
+  color: #fff;
+}
+
+.work-card:nth-child(5) {
+  background: var(--blue);
   color: #fff;
 }
 
@@ -299,6 +304,37 @@ h3 {
 .gallery-card span {
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+.published-section {
+  border-top: 2px solid var(--line);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.published-section .eyebrow {
+  color: var(--green);
+}
+
+.published-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.published-item {
+  min-height: 260px;
+  padding: 22px;
+  border: 2px solid var(--paper);
+  background: rgba(255, 250, 242, 0.08);
+}
+
+.published-item h3 {
+  color: #fff;
+}
+
+.published-item p {
+  margin-bottom: 0;
 }
 
 .split-section {
@@ -460,6 +496,7 @@ textarea {
 
   .work-grid,
   .gallery-grid,
+  .published-grid,
   .split-section,
   .booking-section {
     grid-template-columns: 1fr;
