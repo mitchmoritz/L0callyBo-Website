@@ -1,4 +1,4 @@
-const parentEmail = "parent@example.com";
+const parentEmail = "locallybo@gmail.com";
 
 const form = document.querySelector("#booking-form");
 const note = document.querySelector("#form-note");
