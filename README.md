@@ -59,6 +59,7 @@ custom order requests.
 ## Teen creator safety notes
 
 - Do not publish home address, school, personal phone number, or exact location.
+- Do not publish hometown, school literary magazine names, issue details, or links that reveal location.
 - Keep email and payment accounts parent-managed.
 - Confirm every booking, commission, and sale through an adult before accepting money.
 - Keep the public site focused on creative work, not private life details.
