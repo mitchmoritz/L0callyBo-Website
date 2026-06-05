@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>l0cally bo | Art, Makeup, Custom Work</title>
+    <meta
+      name="description"
+      content="The creative home for l0cally bo: drawing, makeup, custom art, painted jackets, prints, pins, shirts, and booking inquiries."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="l0cally bo home">
+        <span class="brand-mark">l0</span>
+        <span>l0cally bo</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#shop">Shop</a>
+        <a href="#booking">Booking</a>
+        <a href="#links">Links</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/creator-collage-hero.png"
+          alt="Creative studio collage with art supplies, makeup, pins, painted denim, and digital art details"
+        >
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Art / Makeup / Custom Stuff</p>
+          <h1 id="hero-title">l0cally bo</h1>
+          <p class="hero-copy">
+            Drawn, painted, styled, posted, and made by Bo. A home base for socials,
+            art drops, makeup looks, custom orders, and future booking.
+          </p>
+          <div class="hero-actions" aria-label="Featured actions">
+            <a class="button primary" href="#booking">Request custom work</a>
+            <a class="button secondary" href="#work">View the work</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Creative categories">
+        <div class="category-strip">
+          <a href="#drawings">Drawing</a>
+          <a href="#makeup">Makeup</a>
+          <a href="#wearables">Painted jackets</a>
+          <a href="#shop">Pins and prints</a>
+          <a href="#digital">Digital skins</a>
+        </div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2 id="work-title">A creator wall for whatever is being made next.</h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card" id="drawings">
+            <span class="card-kicker">01</span>
+            <h3>Drawing</h3>
+            <p>Original art, sketches, character work, prints, and commission-ready pieces.</p>
+          </article>
+          <article class="work-card" id="makeup">
+            <span class="card-kicker">02</span>
+            <h3>Makeup</h3>
+            <p>Fashion looks, theatrical faces, character concepts, and future glam booking.</p>
+          </article>
+          <article class="work-card" id="wearables">
+            <span class="card-kicker">03</span>
+            <h3>Wearables</h3>
+            <p>Painted jackets, shirts, pins, patches, and custom pieces with attitude.</p>
+          </article>
+          <article class="work-card" id="digital">
+            <span class="card-kicker">04</span>
+            <h3>Digital</h3>
+            <p>Minecraft skins, YouTube experiments, social edits, and online creator projects.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="shop" aria-labelledby="shop-title">
+        <div>
+          <p class="eyebrow">Shop Roadmap</p>
+          <h2 id="shop-title">Start as a showcase. Grow into a real shop.</h2>
+        </div>
+        <div class="shop-list" aria-label="Planned product categories">
+          <div>
+            <strong>Pins</strong>
+            <span>Small drops, limited sets, character-inspired designs.</span>
+          </div>
+          <div>
+            <strong>Prints</strong>
+            <span>Art prints, sticker sheets, signed mini prints.</span>
+          </div>
+          <div>
+            <strong>Shirts</strong>
+            <span>Graphic tees, one-off designs, event or fandom-inspired styles.</span>
+          </div>
+          <div>
+            <strong>Custom art</strong>
+            <span>Commissions, portraits, characters, painted jackets, and special requests.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section booking-section" id="booking" aria-labelledby="booking-title">
+        <div class="booking-copy">
+          <p class="eyebrow">Parent-Managed Requests</p>
+          <h2 id="booking-title">Booking and custom order form</h2>
+          <p>
+            Requests are collected first, then reviewed through a parent-accessible email.
+            This keeps commissions, custom work, and future makeup scheduling organized.
+          </p>
+          <ul class="safety-list">
+            <li>No public phone number needed.</li>
+            <li>No school or home address on the site.</li>
+            <li>AI agents can be added later for sorting, follow-up, and scheduling.</li>
+          </ul>
+        </div>
+
+        <form class="booking-form" id="booking-form">
+          <label>
+            Your name
+            <input name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+          <label>
+            Request type
+            <select name="requestType" required>
+              <option value="">Choose one</option>
+              <option>Custom art</option>
+              <option>Painted jacket</option>
+              <option>Makeup inquiry</option>
+              <option>Product question</option>
+              <option>Collaboration</option>
+            </select>
+          </label>
+          <label>
+            Timeline
+            <input name="timeline" placeholder="Example: birthday in 3 weeks">
+          </label>
+          <label class="full-span">
+            Details
+            <textarea name="details" rows="6" placeholder="Tell us what you want made, size, style, colors, budget range, or event details." required></textarea>
+          </label>
+          <button class="button primary full-span" type="submit">Create email request</button>
+          <p class="form-note" id="form-note">
+            Replace the placeholder parent email in script.js before sharing this form publicly.
+          </p>
+        </form>
+      </section>
+
+      <section class="section links-section" id="links" aria-labelledby="links-title">
+        <div class="section-heading">
+          <p class="eyebrow">Social Gateway</p>
+          <h2 id="links-title">Find Bo online.</h2>
+        </div>
+        <div class="social-grid">
+          <a href="https://www.tiktok.com/@l0cally_bo" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="https://www.instagram.com/l0cally_bo/" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.instagram.com/l0cally.bo_art/" target="_blank" rel="noreferrer">Art Instagram</a>
+          <a href="https://www.youtube.com/@l0callybo" target="_blank" rel="noreferrer">YouTube</a>
+          <a href="https://www.minecraftskins.com/profile/7781151/locallybo" target="_blank" rel="noreferrer">Minecraft Skins</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>l0cally bo</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
