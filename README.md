@@ -10,6 +10,7 @@ custom order requests.
 - `styles.css` - the visual design
 - `script.js` - the booking request email draft handler
 - `assets/creator-collage-hero.png` - generated placeholder hero art
+- `assets/art/` - selected artwork imported from Google Drive for the first gallery
 
 ## First edits to make
 
@@ -18,6 +19,7 @@ custom order requests.
 3. Open `index.html`.
 4. Replace placeholder wording with Bo's preferred bio, product names, and booking language.
 5. Replace `assets/creator-collage-hero.png` with real artwork or a real collage once available.
+6. Add more gallery images to `assets/art/` and copy one of the existing gallery cards in `index.html`.
 
 ## Phased roadmap
 
