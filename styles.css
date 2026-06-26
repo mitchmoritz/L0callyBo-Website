@@ -114,8 +114,8 @@ a {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(244, 223, 182, 0.97) 0%, rgba(244, 223, 182, 0.76) 42%, rgba(244, 223, 182, 0.22) 100%),
-    linear-gradient(0deg, rgba(23, 18, 15, 0.48), rgba(23, 18, 15, 0.08));
+    linear-gradient(90deg, rgba(244, 223, 182, 0.94) 0%, rgba(244, 223, 182, 0.68) 34%, rgba(244, 223, 182, 0.08) 62%, rgba(244, 223, 182, 0) 100%),
+    linear-gradient(0deg, rgba(23, 18, 15, 0.18), rgba(23, 18, 15, 0));
 }
 
 .hero-content {
@@ -552,7 +552,9 @@ textarea {
   }
 
   .hero-shade {
-    background: linear-gradient(180deg, rgba(244, 223, 182, 0.95), rgba(244, 223, 182, 0.72));
+    background:
+      linear-gradient(180deg, rgba(244, 223, 182, 0.9) 0%, rgba(244, 223, 182, 0.48) 52%, rgba(244, 223, 182, 0.14) 100%),
+      linear-gradient(0deg, rgba(23, 18, 15, 0.18), rgba(23, 18, 15, 0));
   }
 
   .booking-form {
